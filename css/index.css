@@ -1,0 +1,219 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background-image: url(/images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+}
+.header {
+  height: 120px;
+  padding: 1% 4%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2eede;
+}
+.header .logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.header .logo img {
+  height: 100%;
+  border-radius: 50%;
+  margin-right: 20px;
+  border: 4px solid white;
+}
+.header .text {
+  text-align: center;
+}
+.header .text h1 {
+  font-size: 36px;
+  color: #284d39;
+}
+.header .text p {
+  font-size: 18px;
+  color: #284d39;
+}
+.header .pages button {
+  padding: 15px 45px;
+  background-color: transparent;
+  margin-left: 15px;
+  outline: none;
+  border: 2.5px solid #284d39;
+  transition: ease-in-out 0.3s;
+}
+.header .pages button:hover {
+  color: white;
+  background-color: #284d39;
+}
+.header .pages button:hover a {
+  color: white;
+}
+.header .pages button a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  color: #284d39;
+}
+
+.about-us {
+  width: 70vw;
+  margin: 70px 0;
+  margin-left: 5%;
+  border: 6px solid #f2eede;
+  padding: 40px;
+}
+.about-us .title {
+  font-size: 64px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #284d39;
+}
+.about-us p {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #284d39;
+}
+
+.vision {
+  width: 70vw;
+  margin: 70px 0;
+  border: 6px solid #f2eede;
+  padding: 40px;
+  margin-left: 25%;
+}
+.vision .title {
+  font-size: 64px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #284d39;
+}
+.vision .orientation h3 {
+  font-size: 48px;
+  margin-top: 15px;
+  color: #284d39;
+}
+.vision .orientation ul {
+  margin-top: 15px;
+  margin-left: 2%;
+}
+.vision .orientation ul li {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #284d39;
+}
+.vision .orientation p {
+  margin-top: 20px;
+  font-size: 26px;
+  color: #284d39;
+}
+
+.mission {
+  width: 70vw;
+  margin: 70px 0;
+  margin-left: 5%;
+  border: 6px solid #f2eede;
+  padding: 40px;
+}
+.mission .title {
+  font-size: 64px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #284d39;
+}
+.mission ul li {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #284d39;
+}
+
+.certificates {
+  padding: 0 3%;
+  margin-top: 50px;
+  text-align: center;
+}
+.certificates .title {
+  font-size: 64px;
+  color: #284d39;
+  margin-bottom: 20px;
+}
+.certificates p {
+  font-size: 22px;
+  color: #284d39;
+  text-align: start;
+}
+.certificates .images {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.certificates .images img {
+  width: 32%;
+}
+
+.contact {
+  margin-top: 50px;
+  padding: 20px 4%;
+}
+.contact form .input-group label {
+  display: block;
+  font-size: 26px;
+}
+.contact form .input-group input {
+  width: 100%;
+  padding: 12px 5px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+.contact form .input-group textarea {
+  width: 100%;
+  height: 100px;
+}
+.contact form > input {
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 24px;
+  background-color: #f2eede;
+  outline: none;
+  border: none;
+  color: #284d39;
+  font-weight: bold;
+  border: 1px solid #f2eede;
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 50px;
+  padding: 20px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .address {
+  font-size: 20px;
+}
+.footer .address h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.footer .address p {
+  margin-bottom: 10px;
+}
+.footer .social-media .text {
+  margin-bottom: 20px;
+}
+.footer .social-media .text h1 {
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+.footer .social-media .text p {
+  font-size: 20px;
+}
+.footer .social-media .media a i {
+  font-size: 30px;
+}
